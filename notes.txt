@@ -1,0 +1,3 @@
+10 fold cross validation - scikitlearn can do it
+sometimes people do stratification
+

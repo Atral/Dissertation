@@ -1,0 +1,18 @@
+Qs
+
+
+How do the correction indices work? If there are a multiple mistakes
+in a sentence are they corrected independently?
+
+
+Use full sentences as features or just surrounding PoS?
+experiment
+words on either size, 1, 2, 3
+bigram
+
+What classifiers to use?
+svm
+
+
+peen treebag tagset 
+wsj tagset
