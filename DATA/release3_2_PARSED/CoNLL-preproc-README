@@ -69,7 +69,7 @@ annotations (d) are included in conll14st-preprocessed.conll.ann.
 
 Here is an example sentence in conll14st-preprocessed.conll:
 
-	NID	PID	SID TOKENID	TOKEN	POS	DPHEAD	DPREL	SYNT
+	NID	   PID	    SID TOKENID	  TOKEN	   POS	 DPHEAD	   DPREL	SYNT
 
 	829     1       2       0       This    DT      1       det     (ROOT(S(NP*
 	829     1       2       1       will    NN      7       nsubj   *)
