@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88957f6-cd36-48ca-a65b-2e849828cb22" name="Default Changelist" comment="" />
+    <list default="true" id="d88957f6-cd36-48ca-a65b-2e849828cb22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Dissertation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dissertation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,13 +31,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pythonsetup" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -48,27 +58,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="conll_read_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Dissertation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Jack\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATA/release2_3_1/original/data" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATA/release2_3_1/original/data/conll_read_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,19 +108,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Dissertation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Jack\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DATA" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DATA/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tickets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Dissertation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tickets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.classify" />
-      <item itemvalue="Python.conll_read_test" />
       <item itemvalue="Python.load_data" />
       <item itemvalue="Python.load_sgml" />
+      <item itemvalue="Python.tickets" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.classify" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tickets" />
         <item itemvalue="Python.load_data" />
         <item itemvalue="Python.load_sgml" />
-        <item itemvalue="Python.conll_read_test" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +179,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -182,79 +193,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614527883857">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614527883857" />
-    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1614527600914">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614527600914" />
-    <state x="691" y="139" key="#conll_read_test" timestamp="1614509334125">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="691" y="139" key="#conll_read_test/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614509334125" />
-    <state x="691" y="139" key="#load_data" timestamp="1614506141437">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="691" y="139" key="#load_data/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614506141437" />
-    <state x="691" y="139" key="#test" timestamp="1614509082485">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="691" y="139" key="#test/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614509082485" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1614717992556">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614717992556" />
-    <state width="1899" height="185" key="GridCell.Tab.0.bottom" timestamp="1616511649144">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616080166756" />
-    <state width="1899" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616511649144" />
-    <state width="1899" height="185" key="GridCell.Tab.0.center" timestamp="1616511649143">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="301" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616080166756" />
-    <state width="1899" height="185" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616511649143" />
-    <state width="1899" height="185" key="GridCell.Tab.0.left" timestamp="1616511649143">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="301" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616080166756" />
-    <state width="1899" height="185" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616511649143" />
-    <state width="1899" height="185" key="GridCell.Tab.0.right" timestamp="1616511649144">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="301" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616080166756" />
-    <state width="1899" height="185" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616511649144" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1614528059701">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614528059701" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1614528059700">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614528059700" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1614528059700">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614528059700" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1614528059700">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1614528059700" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1615225992203">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1615225992203" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1616786544986">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1615975802663" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616786544986" />
-    <state x="-1733" y="37" width="1634" height="709" key="dock-window-1" timestamp="1616183795246">
-      <screen x="-1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-1733" y="37" width="1634" height="709" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1616183795246" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

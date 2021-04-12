@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = "DATA/release3_2_PARSED/data/conll14st-preprocessed.conll"
 cols = ["NID", "PID", "SID", "TOKENID", "TOKEN", "POS", "DPHEAD", "DPREL", "SYNT"]
-df = pd.read_table(DATA_DIR, encoding="ISO-8859-1", names=cols)
+#df = pd.read_table(DATA_DIR, encoding="ISO-8859-1", names=cols)
 SGML_DIR = "DATA/release3_2_PARSED/data/conll14st-preprocessed.conll.ann"
 
 
@@ -130,6 +130,22 @@ def get_adjacent_words(mistake, data_field):
     error_words = get_error_string(mistake, data_field)
     all_words = [prev_word["TOKEN"].to_string(index=False)] + error_words + [next_word["TOKEN"].to_string(index=False)]
     return all_words
+
+
+def get_prev_word(curr_word, df):
+    mask = (df.NID == curr_word.NID)
+    mask &= (df.PID == curr_word.PID)
+    mask &= (df.SID == curr_word.SID)
+    mask &= (df.TOKENID == curr_word.TOKENID - 1)
+    return df[mask]["TOKEN"].to_string(index=False)
+
+
+def get_next_word(curr_word, df):
+    mask = (df.NID == curr_word.NID)
+    mask &= (df.PID == curr_word.PID)
+    mask &= (df.SID == curr_word.SID)
+    mask &= (df.TOKENID == curr_word.TOKENID + 1)
+    return df[mask]["TOKEN"].to_string(index=False)
 
 
 def get_table_token(data_field):
