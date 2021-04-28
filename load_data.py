@@ -16,7 +16,7 @@ def find_paragraphs(sgml_path):
 
 
 def find_mistakes(sgml_path):
-    print("finding mistakes...")
+    print("Finding mistakes...")
     with open(sgml_path, "r") as file:
         soup = BeautifulSoup(file, "html.parser")
         mistakes = soup.find_all("mistake")
