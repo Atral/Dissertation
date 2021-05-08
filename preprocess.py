@@ -37,11 +37,12 @@ print("Undersampling...")
 changed = preps[preps["TOKEN"] != preps["CORRECTION"]]
 unchanged = preps[preps["TOKEN"] == preps["CORRECTION"]]
 # print(unchanged)
-unchanged = unchanged.sample(n=round(unchanged.shape[0] / 10))
+unchanged = unchanged.sample(n=round(unchanged.shape[0]*0.1), random_state=3)
 frames = [changed, unchanged]
 preps = pd.concat(frames)
 
 y = preps["CORRECTION"].to_list()
+
 
 print("Building feature set...")
 for i in range(preps.shape[0]):
@@ -59,10 +60,8 @@ for i in range(preps.shape[0]):
     dp = {"token_id": prep["TOKENID"], "parent": parent, "token": prep["TOKEN"]}
     X.append(dp.copy())
 
-
-# Vectorising and splitting test/train data
-print("Vectorising...")
-
-with open("processed.txt", "w") as f:
+with open("processed_tid-prnt-tok", "a") as f:
     for index, item in enumerate(X):
         f.write(str(X[index]) + "|" + y[index] + "\n")
+
+print("done")

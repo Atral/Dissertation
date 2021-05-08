@@ -41,14 +41,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Downloads\Documents\Uni\Dissertation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.classify">
+  <component name="RunManager" selected="Python.svc_experim">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -104,29 +104,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="detect_errors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dissertation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Downloads\Documents\Uni\Dissertation\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect_errors.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="load_sgml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dissertation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,9 +139,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_sgml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -167,44 +167,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocess_remove_low" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dissertation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Downloads\Documents\Uni\Dissertation\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess_remove_low.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tickets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="svc_experim" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dissertation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Downloads\Documents\Uni\Dissertation\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tickets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svc_experim.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -213,15 +207,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.classify" />
-      <item itemvalue="Python.load_data" />
-      <item itemvalue="Python.load_sgml" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.tickets" />
       <item itemvalue="Python.preprocess" />
+      <item itemvalue="Python.preprocess_remove_low" />
+      <item itemvalue="Python.detect_errors" />
+      <item itemvalue="Python.new" />
+      <item itemvalue="Python.svc_experim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svc_experim" />
         <item itemvalue="Python.preprocess" />
+        <item itemvalue="Python.preprocess_remove_low" />
+        <item itemvalue="Python.new" />
+        <item itemvalue="Python.detect_errors" />
       </list>
     </recent_temporary>
   </component>
@@ -273,47 +271,47 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619347819331">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620331238157">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619347819331" />
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1619542953289">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620331238157" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1620406856588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1619520849233" />
-    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619542953289" />
-    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1619542953289">
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620406856588" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1620406856588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1619520849233" />
-    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619542953289" />
-    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1619542953289">
+    <state width="1899" height="280" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620406856588" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1620406856588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1619520849232" />
-    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619542953289" />
-    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1619542953289">
+    <state width="1899" height="280" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620406856588" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1620406856588">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1619520849233" />
-    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619542953289" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1619348331456">
+    <state width="1899" height="280" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620406856588" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1619971483405">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619348331456" />
-    <state x="-1264" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1619514688264">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619971483405" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1620224562015">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1264" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1619514688264" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619439621281" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620224562015" />
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618826856110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1618826856110" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1619345703031">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1620330583936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1619345703031" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1620330583936" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
