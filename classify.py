@@ -31,7 +31,7 @@ with open("processed_pos-prnt-tok-0.1", "r") as f:
 print("Vectorising...")
 vec = DictVectorizer(sparse=False)
 X = vec.fit_transform(X)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=1)
 
 # Classifying
 clfs = [MultinomialNB().fit(X_train, y_train), svm.SVC(kernel='linear', C=0.5),

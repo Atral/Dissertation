@@ -1,21 +1,25 @@
+from sklearn.model_selection import train_test_split
+
 from load_data import *
 from preprocess import *
 import pandas as pd
-from timeit import default_timer as timer
 from sklearn.feature_extraction import DictVectorizer
 
-start_time = timer()
 # Loading data
 SGML_PATH = "DATA/release3_2_PARSED/data/conll14st-preprocessed.conll.ann"
 DATA_DIR = "DATA/release3_2_PARSED/data/conll14st-preprocessed.conll"
 cols = ["NID", "PID", "SID", "TOKENID", "TOKEN", "POS", "DPHEAD", "DPREL", "SYNT", "CORRECTION"]
 df = pd.read_table(DATA_DIR, encoding="ISO-8859-1", names=cols)
+df["TOKEN"] = df["TOKEN"].str.lower()
 # df = df.sample(n=round(df.shape[0]/10))
 # Adding a correction column where the correction is equal to the token by default
 df["CORRECTION"] = df["TOKEN"]
 
+
+
 mistakes = find_mistakes(SGML_PATH)
 prep_errors = filter_by_mistake_type(mistakes, "Prep")
+
 
 # Adding corrections to the words which contain mistakes
 print("Adding corrections...")
@@ -29,39 +33,63 @@ for error in prep_errors:
 
 df.to_csv("test.csv")
 preps = df[df["DPREL"] == "prep"]
+preps["CORRECTION"] = preps["CORRECTION"].str.lower()
 # print(preps)
-X = []
+# print((preps['CORRECTION'].value_counts(ascending=False))[:20])
+
+train, test = train_test_split(preps, test_size=0.1, random_state=42)
+
+# # Filtering Uncommon Words
+# top = ["of", "in", "to", "for", "on", "from", "with", "by", "as", "at", "into", "about", "like", "than", "through", "during", "according", "after", "over"]
+# train = train[train["CORRECTION"].isin(top)]
 
 # Undersampling the unchanged prepositions
 print("Undersampling...")
-changed = preps[preps["TOKEN"] != preps["CORRECTION"]]
-unchanged = preps[preps["TOKEN"] == preps["CORRECTION"]]
+changed = train[train["TOKEN"] != train["CORRECTION"]]
+unchanged = train[train["TOKEN"] == train["CORRECTION"]]
 # print(unchanged)
-unchanged = unchanged.sample(n=round(unchanged.shape[0]*0.1), random_state=3)
+unchanged = unchanged.sample(n=round(unchanged.shape[0]*0.1), random_state=1)
 frames = [changed, unchanged]
-preps = pd.concat(frames)
+train = pd.concat(frames)
+train = train.sample(frac=1)
+X_train = []
+y_train = train["CORRECTION"].to_list()
 
-y = preps["CORRECTION"].to_list()
+
+X_test = []
+y_test = test["CORRECTION"].to_list()
 
 
-print("Building feature set...")
-for i in range(preps.shape[0]):
-    prep = preps.iloc[i]
-    # d = {"prev": get_prev_word(prep, df),
-    #      "curr": prep["TOKEN"],
-    #      "next": get_next_word(prep, df)}
+def build_features(split, out):
+    print("Building feature set...")
+    for i in range(split.shape[0]):
+        prep = split.iloc[i]
+        # d = {"prev": get_prev_word(prep, df),
+        #      "curr": prep["TOKEN"],
+        #      "next": get_next_word(prep, df)}
 
-    # mask = (preps["NID"] == prep["NID"]) & (preps["PID"] == prep["PID"]) & (preps["SID"] == prep["SID"]) & preps[
-    #         "TOKENID"] == prep["DPHEAD"]
-    mask2 = ((df["NID"] == prep["NID"]) & (df["PID"] == prep["PID"]) & (df["SID"] == prep["SID"]))
-    dp_word = df.loc[mask2]
-    head = dp_word[dp_word["TOKENID"] == eval(prep["DPHEAD"])]
-    parent = head["TOKEN"].item()
-    dp = {"token_id": prep["TOKENID"], "parent": parent, "token": prep["TOKEN"]}
-    X.append(dp.copy())
+        # mask = (split["NID"] == prep["NID"]) & (split["PID"] == prep["PID"]) & (split["SID"] == prep["SID"]) & split[
+        #         "TOKENID"] == prep["DPHEAD"]
+        mask2 = ((df["NID"] == prep["NID"]) & (df["PID"] == prep["PID"]) & (df["SID"] == prep["SID"]))
+        dp_word = df.loc[mask2]
+        head = dp_word[dp_word["TOKENID"] == eval(prep["DPHEAD"])]
+        parent = head["TOKEN"].item()
+        dp = {"token_id": prep["TOKENID"], "parent": parent, "token": prep["TOKEN"]}
+        out.append(dp.copy())
 
-with open("processed_tid-prnt-tok", "a") as f:
-    for index, item in enumerate(X):
-        f.write(str(X[index]) + "|" + y[index] + "\n")
+
+build_features(train, X_train)
+build_features(test, X_test)
+X_train = (X_train[:len(X_test)])
+
+print(len(X_train), len(X_test))
+
+with open("base_train-shuffled", "a") as f:
+    for index, item in enumerate(X_train):
+        f.write(str(X_train[index]) + "|" + y_train[index] + "\n")
+
+with open("base_test-shuffled", "a") as f:
+    for index, item in enumerate(X_test):
+        f.write(str(X_test[index]) + "|" + y_test[index] + "\n")
 
 print("done")

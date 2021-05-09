@@ -1,3 +1,0 @@
-SVC WITH C=MultinomialNB() AND DEFAULT PARAMS: Overall = 0.686662652416077 Changed = 0.603. 0.24 given wrong correction. 0.07 changed when they shouldn't have been and 0.08295069627399322 not changed when they should have been.
-SVC WITH C=MultinomialNB() AND DEFAULT PARAMS: Overall = 0.6920818907120277 Changed = 0.2714. 0.15 given wrong correction. 0.16 changed when they shouldn't have been and 0.11524275498682725 not changed when they should have been.
-SVC WITH C=SVC(C=0.5, kernel='linear') AND DEFAULT PARAMS: Overall = 0.8455517085654072 Changed = 0.3139. 0.14 given wrong correction. 0.01 changed when they shouldn't have been and 0.13240496800903273 not changed when they should have been.

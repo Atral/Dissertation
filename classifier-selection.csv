@@ -1,0 +1,6 @@
+Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged
+MultinomialNB(),0.7773,0.7535,0.9591,0.0409,0.1954
+SVC(),0.8266,0.8038,0.9756,0.0244,0.0563
+RandomForestClassifier(random_state=1),0.9346,0.9346,0.8669,0.1331,0.0805
+DecisionTreeClassifier(),0.9193,0.9193,0.8627,0.1373,0.0749
+LogisticRegression(),0.9132,0.9018,0.9768,0.0232,0.0534
