@@ -1,0 +1,4 @@
+Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged
+linear,77.4142,23.36,0.0818,0.9182,0.0397
+rbf,48.9534,14.6,0.0403,0.9597,0.0148
+poly,37.7309,10.22,0.0347,0.9653,0.0121

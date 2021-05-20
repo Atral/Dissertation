@@ -148,6 +148,22 @@ def get_next_word(curr_word, df):
     return df[mask]["TOKEN"].to_string(index=False)
 
 
+def get_n_pos(curr_word, df, n):
+    mask = (df.NID == curr_word.NID)
+    mask &= (df.PID == curr_word.PID)
+    mask &= (df.SID == curr_word.SID)
+    mask &= (df.TOKENID == curr_word.TOKENID + n)
+    return df[mask]["POS"].to_string(index=False)
+
+
+def get_word_at_pos(curr_word, df, pos):
+    mask = (df.NID == curr_word.NID)
+    mask &= (df.PID == curr_word.PID)
+    mask &= (df.SID == curr_word.SID)
+    mask &= (df.TOKENID == curr_word.TOKENID + pos)
+    return df[mask]["TOKEN"].to_string(index=False)
+
+
 def get_table_token(data_field):
     return data_field["TOKEN"]
 

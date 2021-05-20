@@ -1,4 +1,3 @@
-import nltk
 import pandas as pd
 import time
 from timeit import default_timer as timer
@@ -21,7 +20,7 @@ from sklearn.tree import DecisionTreeClassifier
 X = []
 y = []
 
-with open("processed_pos-prnt-tok-0.1", "r") as f:
+with open("base_train-0.2", "r") as f:
     print("Reading processed data...")
     for line in f:
         xy = line.split("|")
@@ -34,8 +33,7 @@ X = vec.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=1)
 
 # Classifying
-clfs = [MultinomialNB().fit(X_train, y_train), svm.SVC(kernel='linear', C=0.5),
-        RandomForestClassifier(random_state=1), DecisionTreeClassifier(), LogisticRegression()]
+clfs = [LogisticRegression()]
 print("Fitting classifier...")
 
 for clf in clfs:
@@ -55,7 +53,9 @@ for clf in clfs:
         for i, v in enumerate(X_test):
             a = str(vec.inverse_transform(X_test[i][None, :]))
             b = (re.findall("\{(.*?)\}", a))[0]
-            c = b.split(",")[2].split(":")[0][2:-1]
+
+            if len(b.split(",")) > 1:
+                c = b.split(",")[1].split(":")[0][2:-1]
 
             if len(c.split("=")) >= 2:
                 d = c.split("=")[1]

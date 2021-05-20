@@ -5,10 +5,12 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.naive_bayes import MultinomialNB
 import re
-from sklearn import svm
+from sklearn import svm, metrics
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import f1_score, make_scorer, confusion_matrix, plot_confusion_matrix, classification_report
+from sklearn.metrics import f1_score, make_scorer, confusion_matrix, plot_confusion_matrix, classification_report, \
+    accuracy_score
 from sklearn.tree import DecisionTreeClassifier
+import statistics
 
 
 def read_data(filename, X_array, y_array):
@@ -26,40 +28,54 @@ y_train = []
 X_test = []
 y_test = []
 
-TRAINPATH = "base_train-shuffled"
-TESTPATH = "base_test-shuffled"
+TRAINPATH = "top5_train.txt"
+TESTPATH = "top5_test.txt"
+OUTPUT = "topwords.csv"
 
 read_data(TRAINPATH, X_train, y_train)
 read_data(TESTPATH, X_test, y_test)
 
+# Vectorising imported data
 print("Vectorising...")
 vec = DictVectorizer(sparse=False)
 X_train = vec.fit_transform(X_train)
 X_test = vec.transform(X_test)
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
 
-# Classifying
+# SVM params
 kernels = ['linear', 'rbf', 'poly']
-cs = [0.1, 0.5, 1, 3, 5, 20, 50, 100]
-alphas = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 2, 3]
+cs = [0.05, 0.2, 0.3, 0.4]
+
+#NB params
+alphas = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 5, 10]
+
+# RF Params
 estimators = [100, 300, 500, 750, 800, 1200]
+gammas = [1,0.1,0.01,0.001]
+
+# LR params
+max_depths = np.linspace(33, 60, 28, endpoint=True)
+solvers = ['newton-cg', 'lbfgs', 'liblinear']
 clfs = [MultinomialNB(), svm.SVC(),
         RandomForestClassifier(random_state=1), DecisionTreeClassifier(), LogisticRegression()]
 
-with open("classifier-selection.csv", "a") as f:
-    f.write("Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged\n")
+# DT params
+min_samples_splits = [2, 5, 10, 50, 100]
+c2s = [100, 10, 1.0, 0.1, 0.01]
 
-    for c in clfs:
-        clf = c
+optims = [LogisticRegression(solver='liblinear'), svm.SVC(kernel='linear'), MultinomialNB(alpha=0.5),
+          RandomForestClassifier(random_state=1, n_estimators = 500), DecisionTreeClassifier(max_depth=45, min_samples_split=5)]
+
+with open(OUTPUT, "a") as f:
+    # f.write("Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged\n")
+
+    for v in range(1):
+        clf =  RandomForestClassifier(random_state=1, n_estimators = 500)
         print("Fitting classifier...")
         clf.fit(X_train, y_train)
-        f.write(str(c) + ",")
+        f.write(str(10) + ",")
 
         print("Scoring...")
-        score = clf.score(X_test, y_test)
-
-        print("Overall: ", score)
-        f.write(str(round(score, 4)) + ",")
+        t_score = clf.score(X_train, y_train)
 
         print("Predicting...")
         y_pred = clf.predict(X_test)
@@ -69,16 +85,15 @@ with open("classifier-selection.csv", "a") as f:
 
         for i, v in enumerate(X_test):
             a = str(vec.inverse_transform(X_test[i][None, :]))
-            b = (re.findall("\{(.*?)\}", a))[0]
-            if len(b.split(",")) > 1:
-                c = b.split(",")[1].split(":")[0][2:-1]
+            res = a.split('token=', maxsplit=1)[-1] \
+                .split(maxsplit=1)[0][:-2]
 
-            if len(c.split("=")) >= 2:
-                d = c.split("=")[1]
-                rev_input.append(d)
+            if "=" in res:
+                rev_input.append("")
+            else:
+                rev_input.append(res)
+                # print(res, " extraced from ", a)
 
-        # print("calculating f1..")
-        # print(f1_score(y_test, y_pred, average="micro"))
         # print(classification_report(y_test, y_pred))
         changed = 0
         correct = 0
@@ -88,22 +103,21 @@ with open("classifier-selection.csv", "a") as f:
 
         print("Performing secondary evaluation...")
         for inpt, prediction, label in zip(rev_input, y_pred, y_test):
-            label = label.replace('\n', '')
-            prediction = prediction.replace('\n', '')
-            with open("output.txt", "a") as f2:
-                f2.write(str(inpt) + " => " + str(prediction) + " | " + str(label) + '\n')
+            label = label.rstrip()
+            prediction = prediction.rstrip()
             if prediction != label:
                 incorrect += 1
+
             if inpt != label:
-                # f.write(":" + str(inpt) + ": should be corrected to :" + str(label) + ":\n")
                 changed += 1
+                with open("output.txt", "a") as f2:
+                    f2.write(inpt + " => " + prediction + " | " + label + '\n')
+                    # print("--->", label)
+
                 if label == prediction:
-                    # f.write("=> correctly changed :" + str(inpt) + ":" + " to :" + str(prediction) + ":\n")
-                    # f.write("\n")
+                    with open("output.txt", "a") as f2:
+                        f2.write("****************" + "\n")
                     correct += 1
-                # else:
-                # f.write("=> incorrectly changed :" + str(inpt) + ":" + " to :" + str(prediction) + ":\n")
-                # f.write("\n")
 
             if (prediction != label) & (inpt == label):
                 incorrectly_changed += 1
@@ -111,12 +125,15 @@ with open("classifier-selection.csv", "a") as f:
             if (inpt != label) & (prediction == inpt):
                 incorrect_unchanged += 1
 
-        print("Changed: ", round(correct / changed, 4))
-        f.write(str(round(correct / changed, 4)) + ",")
+        # print(classification_report(y_test, y_pred))
+        cv_score = round(accuracy_score(y_test, y_pred)*100, 4)
+        print("Overall score: ", cv_score, "%")
+        print("Changed: ", correct , " correct of ", changed, " making ", round(correct / changed, 4)*100, "%")
+        f.write(str(cv_score) + ",")
+        f.write(str(round(correct / changed, 4)*100) + ",")
         f.write(str(round((changed - correct) / incorrect, 4)) + "," +
                 str(round(incorrectly_changed / incorrect, 4)) + "," +
                 str(round(incorrect_unchanged / incorrect, 4)) + "\n")
 
     # plot_confusion_matrix(clf, X_test, y_test)
     # plt.show()
-    # inv = vec.inverse_transform(X_test)

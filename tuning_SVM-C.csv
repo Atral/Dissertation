@@ -1,9 +1,0 @@
-Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged
-SVC(C=0.1, kernel='linear'),0.9664,0.9638,0.9422,0.0578,0.0638
-SVC(C=0.5, kernel='linear'),0.97,0.9686,0.8937,0.1063,0.0698
-SVC(C=1, kernel='linear'),0.9579,0.9564,0.8902,0.1098,0.0955
-SVC(C=3, kernel='linear'),0.9468,0.9449,0.8906,0.1094,0.0943
-SVC(C=5, kernel='linear'),0.9481,0.9456,0.8927,0.1073,0.0996
-SVC(C=20, kernel='linear'),0.9495,0.9466,0.8943,0.1057,0.0881
-SVC(C=50, kernel='linear'),0.9497,0.9469,0.8939,0.1061,0.0904
-SVC(C=100, kernel='linear'),0.9478,0.9449,0.8922,0.1078,0.0813

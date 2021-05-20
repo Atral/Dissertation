@@ -1,0 +1,6 @@
+Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged
+LR,76.6755,13.14,0.0897,0.9103,0.0513
+SVC,48.9534,14.60,0.0403,0.9597,0.0148
+lNB,48.8303,22.63,0.0364,0.9636,0.01
+RF,79.5602,21.17,0.0929,0.9071,0.0473
+DT,74.4239,20.44,0.075,0.925,0.0351
