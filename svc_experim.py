@@ -28,9 +28,9 @@ y_train = []
 X_test = []
 y_test = []
 
-TRAINPATH = "top5_train.txt"
-TESTPATH = "top5_test.txt"
-OUTPUT = "topwords.csv"
+TRAINPATH = "top20_train.txt"
+TESTPATH = "top20_test.txt"
+OUTPUT = "output.txt"
 
 read_data(TRAINPATH, X_train, y_train)
 read_data(TESTPATH, X_test, y_test)
@@ -65,14 +65,14 @@ c2s = [100, 10, 1.0, 0.1, 0.01]
 optims = [LogisticRegression(solver='liblinear'), svm.SVC(kernel='linear'), MultinomialNB(alpha=0.5),
           RandomForestClassifier(random_state=1, n_estimators = 500), DecisionTreeClassifier(max_depth=45, min_samples_split=5)]
 
-with open(OUTPUT, "a") as f:
+with open("top.csv", "a") as f:
     # f.write("Classifier, Overall, Changed, WrongCorrection, IncorrectlyChanged, IncorrectlyUnchanged\n")
 
-    for v in range(1):
-        clf =  RandomForestClassifier(random_state=1, n_estimators = 500)
+    for c in range(1):
+        clf = RandomForestClassifier(random_state=1, n_estimators=500)
         print("Fitting classifier...")
         clf.fit(X_train, y_train)
-        f.write(str(10) + ",")
+        f.write(str(20) + ",")
 
         print("Scoring...")
         t_score = clf.score(X_train, y_train)
@@ -110,7 +110,7 @@ with open(OUTPUT, "a") as f:
 
             if inpt != label:
                 changed += 1
-                with open("output.txt", "a") as f2:
+                with open(OUTPUT, "a") as f2:
                     f2.write(inpt + " => " + prediction + " | " + label + '\n')
                     # print("--->", label)
 

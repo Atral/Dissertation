@@ -66,6 +66,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\cum_top.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\optimised results.csv">
           <value>
             <Attribute>
@@ -87,7 +94,35 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\top.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\top1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\top_num.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\topwords.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\train_words.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

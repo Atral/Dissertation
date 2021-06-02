@@ -1,1273 +1,806 @@
 to => to | into
-of =>  | 
-****************
-on => on | in
-in => in | on
-in => in | of
-of => of | from
-on => on | in
-on => on | 
+ => in | without
+ => in | according
 of => of | 
+ => in | without
+ => in | regarding
+ => to | after
+on => of | in
+ => in | compared
+ => of | compared
+ => of | per
+in => in | on
+ => to | if
+ => of | above
+in => in | of
+ => of | via
+of => of | from
+ => in | considering
+ => in | after
+on => in | in
+****************
+ => in | across
+ => in | without
+ => in | without
+ => in | across
+on => on | 
+ => in | depending
+ => in | without
+ => in | despite
+of => of | 
+ => in | since
+ => in | after
+ => in | without
+ => of | including
+ => in | since
+ => in | below
 upon => on | of
- =>  | out
+ => to | than
+ => in | based
+ => in | out
+ => in | besides
+ => on | after
+ => in | according
+ => of | besides
 of => of | for
 in => in | into
+ => in | compared
+ => in | after
+ => in | compared
+ => of | against
+ => in | due
+ => in | than
+ => in | like
+for => for | to
+ => of | based
+ => of | per
+as => of | 
+of => of | 
+ => in | after
+ => of | based
+ => in | according
+ => in | despite
+of => of | 
+ => in | compared
+ => in | than
+ => in | up
+until => in | 
+ => in | per
+ => to | without
+in => in | to
+to => of | 
+ => in | after
+for => for | in
+ => in | compared
+ => in | against
+ => to | compared
+ => in | below
+ => in | regarding
+to => to | on
+ => in | after
+in => in | from
+ => in | according
+ => in | than
+under => of | with
+to => to | 
+ => in | according
+ => in | such
+by => of | with
+ => in | according
+ => of | than
+ => of | based
+in => in | into
+ => of | than
+ => of | based
+in => in | on
+ => in | compared
+ => in | after
+ => in | despite
+ => in | depending
+ => of | compared
+of => of | 
+ => for | like
+by => in | through
+ => of | against
+of => to | on
+ => in | without
+ => in | besides
+ => in | besides
+ => of | including
+to => to | for
+ => in | considering
+ => of | compared
+ => in | out
+in => in | to
+ => in | after
+ => of | like
+ => in | like
+ => in | without
+ => in | without
+ => in | beneath
+ => in | before
+ => in | including
+on => on | 
+by => in | 
+ => in | according
+ => to | compared
+ => of | per
+ => in | unlike
+ => in | since
+ => in | since
+ => in | without
+ => in | after
+ => of | defect
+ => of | like
+ => in | above
+ => of | against
+ => in | outside
+on => on | into
+for => of | 
+ => of | like
+ => to | than
+towards => in | of
+ => in | than
+ => in | compared
+ => to | like
+ => for | without
+ => in | per
+ => in | throughout
+ => in | beyond
+ => in | compared
+on => on | for
+ => in | based
+ => of | across
+ => in | before
+ => in | after
+ => in | coupled
+ => in | without
+ => in | like
+ => of | concerning
+ => in | after
+of => of | 
+by => in | from
+ => in | behind
+ => in | than
+ => in | against
+ => of | across
+ => of | but
+ => of | per
+on => on | 
+ => of | like
+ => in | according
+ => in | after
+on => of | in
+ => in | above
+for => to | into
+ => in | compared
+ => in | compared
+ => in | based
+ => in | based
+of => of | to
+ => in | because
+ => of | like
+as => in | 
+ => of | before
+ => in | without
+to => on | of
+ => in | without
+ => in | via
+on => on | 
+of => of | with
+ => of | like
+ => in | before
+ => in | according
+ => of | per
+ => of | than
+ => in | without
+of => in | in
+****************
+ => in | than
+ => in | after
+for => for | of
+ => in | like
+ => in | according
+ => in | like
+for => on | on
+****************
+ => of | than
+for => for | of
+ => in | except
+ => in | before
+ => of | compared
+of => of | 
+to => to | for
+on => of | from
+ => of | via
+ => in | based
+for => of | 
+ => in | per
+ => in | before
+ => to | against
+to => for | for
+****************
+ => in | before
+ => of | without
+on => of | of
+****************
+ => to | without
+ => in | than
+ => in | after
+on => for | for
+****************
+ => in | worth
+ => in | without
+ => to | above
+ => in | including
+ => in | depending
+with => to | during
+ => to | like
+ => of | like
+ => in | such
+ => in | like
+ => of | such
+ => in | like
+of => of | 
+ => in | compared
+to => to | 
+ => in | than
+ => in | against
+for => for | 
+ => in | compared
+ => in | unlike
+ => in | after
+ => in | while
+ => in | like
+between => in | with
+ => in | than
+ => in | against
+ => of | like
+ => in | according
+ => in | than
+ => to | above
+ => to | like
+upon => on | on
+****************
+into => to | to
+****************
+ => in | online
+ => in | according
+ => in | compared
+ => of | than
+ => in | compared
+with => in | 
+ => of | including
+ => in | compared
+ => in | near
+on => on | with
+ => for | than
+ => in | according
+ => of | like
+ => in | unlike
+ => in | above
+ => in | before
+ => to | compared
+ => in | like
+ => in | without
+ => to | across
+ => in | according
+ => to | than
+ => in | unlike
+ => of | than
+ => in | despite
+on => to | to
+****************
+in => in | among
+ => in | against
+ => in | since
+with => in | 
+by => in | 
+within => to | of
+ => in | according
+ => in | than
+ => in | against
+with => to | for
+ => in | besides
+ => in | besides
+ => in | compared
+ => in | like
+ => of | but
+about => in | 
+for => for | 
+of => of | in
+on => on | 
+ => in | after
+ => in | without
+ => of | like
+on => on | to
+through => to | by
+ => to | above
+of => in | in
+****************
+ => in | without
+ => in | before
+ => in | than
+ => in | after
+ => of | but
+ => in | via
+ => of | like
+of => of | in
+ => in | without
+ => in | against
+ => in | throughout
+of => of | with
+in => in | of
+ => in | like
+ => in | online
+ => of | than
+ => in | based
+ => in | after
+of => of | in
+ => in | after
+ => in | without
+ => in | after
+ => of | regarding
+ => of | like
+ => to | without
+ => in | after
+ => in | despite
+ => in | according
+ => in | besides
+to => for | of
+ => in | after
+ => in | unlike
+ => in | after
+ => in | after
+ => of | but
+ => in | unlike
+ => of | especially
+ => in | according
+of => of | in
+ => in | since
+ => to | above
+ => in | coupled
+ => in | after
+ => to | like
+ => of | after
+in => in | 
+ => of | per
+ => of | outside
+ => of | like
+ => in | according
+ => of | including
+ => in | since
+ => in | besides
+of => of | 
+of => of | 
+ => in | without
+of => on | on
+****************
+ => in | such
+ => in | like
+of => of | for
+ => in | against
+ => in | without
+ => in | than
+ => in | compared
+ => of | without
+on => to | to
+****************
+ => in | according
+ => in | like
+ => in | compared
+ => in | without
+ => in | throughout
+ => in | compared
+ => in | before
+ => of | like
+ => in | above
+ => of | per
+for => for | 
+ => of | than
+ => in | while
+ => in | without
+ => of | without
+ => in | regarding
+from => in | for
+ => in | without
+by => in | 
+ => in | because
+on => in | 
+ => of | like
+ => in | like
+ => in | since
+on => in | towards
+ => in | after
+ => in | according
+in => in | of
+ => in | despite
+ => in | including
+ => of | against
+ => in | despite
+ => in | according
+ => in | after
+ => in | despite
+in => in | on
+ => for | like
+ => in | than
+ => in | according
+ => of | like
+ => in | regarding
+ => in | besides
+ => in | since
+ => in | against
+ => in | unlike
+ => to | than
+ => in | despite
+ => in | according
+ => in | february
+ => of | like
+to => to | 
+ => in | according
+ => of | like
+ => in | via
+ => in | based
+to => of | for
+of => of | for
+ => in | beyond
+ => in | besides
+ => in | without
+ => in | besides
+ => in | while
+ => in | inside
+ => in | than
+ => in | like
+ => of | than
+ => of | without
+ => in | against
+ => in | than
+ => in | till
+ => in | according
+ => in | against
+ => in | according
+ => in | unlike
+ => in | without
+ => of | per
+ => in | against
+ => in | besides
+ => to | per
+for => for | in
+ => of | per
+ => of | like
+ => in | than
+in => in | 
+ => in | than
+ => of | without
+in => on | on
+****************
+ => in | like
+ => in | near
+to => to | into
+of =>  | 
+****************
+ => about | regarding
+on => of | in
+ => according | compared
+ => according | compared
+ => of | per
+in => in | on
+ => by | if
+ =>  | above
+in => in | of
+ => of | via
+of => of | from
+ => in | considering
+on => on | in
+ => in | across
+ => in | across
+on =>  | 
+****************
+ => in | depending
+ => in | despite
+of => of | 
+ =>  | since
+ => of | including
+ => in | since
+ => in | below
+upon => on | of
+ =>  | based
+ =>  | out
+ => in | besides
+ => in | besides
+of => of | for
+in => in | into
+ => according | compared
+ => according | compared
+ => of | against
  => according | due
 for => for | to
+ =>  | based
+ => of | per
 as => as | 
 of =>  | 
 ****************
+ => of | based
+ => in | despite
 of =>  | 
 ****************
- => in | up
+ => in | compared
+ =>  | up
 until => in | 
+ => in | per
 in => in | to
 to => to | 
-for => for | in
-to => to | on
-in => in | from
-under => in | with
-to => to | 
+for =>  | in
+ =>  | compared
+ => in | against
+ => according | compared
+ => on | below
+ => in | regarding
+to => on | on
+****************
+in => to | from
+under => of | with
+to =>  | 
+****************
+ =>  | such
 by => by | with
+ =>  | based
 in => in | into
-in => in | on
+ =>  | based
+in =>  | on
+ => according | compared
+ => in | despite
+ => in | depending
+ => of | compared
 of => of | 
 by => by | through
+ => of | against
 of => of | on
+ => for | besides
+ =>  | besides
+ => of | including
 to => to | for
+ =>  | considering
+ =>  | compared
  => in | out
 in => in | to
  => in | beneath
+ =>  | before
+ => in | including
 on =>  | 
 ****************
-by => by | 
+by =>  | 
+****************
+ => according | compared
+ => of | per
+ =>  | unlike
+ =>  | since
+ => in | since
  => of | defect
- => by | outside
+ => for | above
+ => in | against
+ => as | outside
 on =>  | into
 for => for | 
 towards => in | of
+ => according | compared
+ => in | per
+ =>  | throughout
+ =>  | beyond
+ => according | compared
 on => on | for
+ =>  | based
+ => of | across
+ => in | before
+ =>  | coupled
+ => of | concerning
 of => of | 
 by => by | from
+ => in | behind
+ => in | against
+ => in | across
+ => of | but
+ => of | per
 on =>  | 
 ****************
-on => on | in
+on => of | in
+ =>  | above
 for => for | into
+ =>  | compared
+ => according | compared
+ =>  | based
+ => in | based
 of => of | to
+ => as | because
 as => as | 
-to => to | of
+ => in | before
+to => for | of
+ => in | via
 on =>  | 
 ****************
-of => of | with
+of =>  | with
+ => in | before
+ => of | per
 of => in | in
 ****************
 for => for | of
-for => for | on
+for => on | on
+****************
 for => for | of
+ =>  | except
+ => by | before
+ => of | compared
 of => of | 
 to => to | for
-on => on | from
+on => of | from
+ => of | via
+ =>  | based
 for => for | 
+ => in | per
+ => in | before
+ =>  | against
 to => for | for
 ****************
+ => in | before
 on => of | of
 ****************
 on =>  | for
  =>  | worth
+ => in | above
+ => for | including
+ =>  | depending
 with => with | during
+ => from | such
+ =>  | such
 of => of | 
-to => to | 
+ => according | compared
+to => for | 
+ =>  | against
 for => for | 
+ => according | compared
+ => in | unlike
+ => in | while
 between =>  | with
+ =>  | against
+ => in | above
 upon =>  | on
-into => in | to
+into => into | to
  => in | online
+ => according | compared
+ =>  | compared
 with => with | 
+ => in | including
+ => according | compared
+ => by | near
 on => with | with
 ****************
+ => in | unlike
+ =>  | above
+ =>  | before
+ => to | compared
+ => to | across
+ => in | unlike
+ => in | despite
 on => to | to
 ****************
 in => in | among
+ => of | against
+ => in | since
 with =>  | 
 ****************
 by =>  | 
 ****************
-within => within | of
+within => to | of
+ =>  | against
 with => with | for
+ => in | besides
+ => in | besides
+ => according | compared
+ => of | but
 about =>  | 
 ****************
-for => for | 
+for =>  | 
+****************
 of => of | in
 on =>  | 
 ****************
 on =>  | to
 through => in | by
+ =>  | above
 of => in | in
 ****************
+ => in | before
+ => of | but
+ => into | via
 of => of | in
+ =>  | against
+ => in | throughout
 of => of | with
 in => in | of
  =>  | online
+ =>  | based
 of => of | in
+ => of | regarding
+ => in | despite
+ =>  | besides
 to => for | of
- => on | especially
+ =>  | unlike
+ => of | but
+ =>  | unlike
+ => at | especially
 of => of | in
+ => in | since
+ => in | above
+ => in | coupled
 in => in | 
+ => of | per
  =>  | outside
-of => of | 
+ => in | including
+ => in | since
+ => in | besides
+of =>  | 
+****************
 of =>  | 
 ****************
 of => on | on
 ****************
+ =>  | such
 of => of | for
+ => in | against
+ => according | compared
 on => to | to
 ****************
+ => according | compared
+ => in | throughout
+ => according | compared
+ => in | before
+ =>  | above
+ => of | per
 for =>  | 
 ****************
+ => in | while
+ => in | regarding
 from => from | for
 by =>  | 
 ****************
+ =>  | because
 on => on | 
+ => in | since
 on => on | towards
 in => in | of
+ => in | despite
+ => with | including
+ => of | against
+ => in | despite
+ => in | despite
 in => in | on
- => bbc | february
+ => in | regarding
+ => by | besides
+ => in | since
+ =>  | against
+ => according | unlike
+ => in | despite
+ => in | february
 to => to | 
-to => to | for
+ => into | via
+ => in | based
+to => of | for
 of => of | for
+ =>  | beyond
+ => in | besides
+ => in | besides
+ => in | while
+ =>  | against
  => on | till
+ => in | against
+ => in | unlike
+ => in | per
+ =>  | against
+ => in | besides
+ => by | per
 for => for | in
-in => in | 
-in => in | on
-at => at | in
-of =>  | 
-****************
-among => among | in
- => of | though
-on => on | for
-with => with | in
-in => in | to
-to => to | with
-in => in | about
-by => by | 
-of => on | on
-****************
-on => on | 
-in => in | 
-of => of | 
- => with | alongside
-to => to | 
- => bbc | generation
-of => of | by
-on => on | 
-under => under | in
-over => over | in
- => to | down
-to => to | in
-to => on | in
-from => from | of
-in => in | of
- => because | out
-with => with | to
-of => of | on
-for => for | on
-in => in | by
-of => of | 
-to => on | on
-****************
-between => between | in
-with =>  | at
-by => by | from
-of => of | 
-on => on | for
-of => to | 
- => by | due
-in => in | into
-for => for | 
-at => at | in
-from => from | 
-about => about | 
-with => with | of
-of => for | for
-****************
- => from | especially
-in => in | at
-on =>  | 
-****************
-to => to | in
-to => to | for
-in => in | to
-to => to | 
-on => on | of
-for => for | 
-on => on | 
-with => with | by
-on => for | to
-by => by | in
-of => of | to
-of => of | in
-by => by | in
-on =>  | 
-****************
-of => of | 
-towards => of | in
-with => with | in
-from => from | 
- => about | along
-in => in | inside
- => by | out
-for => for | 
-on => of | of
-****************
-on => on | in
-in => in | at
+ => of | per
 in => in | 
 in => on | on
 ****************
-upon => on | to
-to => of | on
-into => in | to
-to => in | into
- =>  | till
-into => into | for
-on => to | to
-****************
-of =>  | 
-****************
-on => in | at
-by => by | 
-in => in | of
-of =>  | 
-****************
-to => for | for
-****************
-in => of | of
-****************
-in => to | to
-****************
-by => by | 
-at => at | of
-to => on | on
-****************
-of => of | in
-into => to | to
-****************
-of =>  | in
-of => of | through
-on => on | in
-in => in | 
-in => for | for
-****************
-of =>  | 
-****************
-with => with | without
-as => as | 
-of => of | 
-of => of | in
- => in | following
-with => with | 
-on => on | 
-of => of | on
-of =>  | 
-****************
-in => in | 
- =>  | out
-to => to | for
-on => on | in
-to => in | in
-****************
-of => for | for
-****************
-to => to | 
-to => to | 
-of =>  | 
-****************
-for => for | to
-to => to | for
-of => of | 
-in => in | on
- =>  | worth
-with => with | 
- => of | versus
-on => on | of
-of => of | on
-with => with | by
-for => for | of
-of => of | in
-in => in | to
-in => in | at
-as => as | at
-for => for | of
-on => on | 
-as =>  | 
-****************
-to => for | for
-****************
-through =>  | 
-****************
-from => from | of
-of => of | for
-as => as | in
-for => for | to
-of =>  | during
- => of | up
- =>  | till
-in => in | on
-at => at | in
- => to | till
-to => to | for
-with => with | 
-to => to | of
-on => for | for
-****************
-with =>  | 
-****************
-upon => in | on
-of => in | in
-****************
-in => in | on
-with => with | to
-about =>  | 
-****************
-in => in | into
-for => for | by
-in => in | during
-on => on | 
-to => to | for
-for => for | 
- => for | in
- => in | till
-over =>  | about
-on => on | by
-of => of | from
-to => to | of
-by => by | for
-through =>  | by
-of => of | in
-of => of | from
-in => in | on
-by =>  | 
-****************
-to =>  | 
-****************
-on => on | 
-in => in | during
-of =>  | 
-****************
-on => on | in
-with =>  | at
-of => of | for
-into =>  | in
-to => to | 
- => to | due
-on =>  | 
-****************
-of =>  | 
-****************
-in => in | 
-for => for | to
-for => for | on
-in => with | with
-****************
- => to | along
- => for | especially
-to => to | into
-to => to | for
-about => about | in
- =>  | out
-at => at | in
-with => with | 
- =>  | till
-by => by | for
-in => in | into
- => by | till
-in => in | from
-of => of | in
-on => with | in
- => of | plus
-to => to | 
- =>  | worth
-in => in | to
-in => in | from
-of => of | in
-to => to | at
-with => with | 
-by => of | to
-for => for | by
-to => to | of
-over => over | in
-in => in | for
-into => in | in
-****************
-on => on | 
-of => of | 
-for => for | 
-for => for | to
-by => by | of
-in => in | 
-in => in | from
-in => in | of
-for => for | 
-into => into | to
-in => for | to
-with => with | 
-on =>  | 
-****************
-to => to | for
-to => to | for
-for => for | on
-of => in | in
-****************
-by => by | from
-in => in | of
-for =>  | 
-****************
-of => of | 
- => from | november
-to => to | into
-of =>  | 
-****************
-on => on | in
-in => in | on
-in => in | of
-of => of | from
-on => on | in
-on => on | 
-of => of | 
-upon => on | of
- =>  | out
-of => of | for
-in => in | into
- => compared | due
-for => for | to
-as => as | 
-of =>  | 
-****************
-of =>  | 
-****************
- => in | up
-until => in | 
-in => in | to
-to => to | 
-for => for | in
-to => to | on
-in => in | from
-under => in | with
-to => to | 
-by => by | with
-in => in | into
-in => in | on
-of => of | 
-by => by | through
-of => of | on
-to => to | for
- => by | out
-in => in | to
- => in | beneath
-on =>  | 
-****************
-by => by | 
- => of | defect
- => as | outside
-on =>  | into
-for => for | 
-towards => in | of
-on => on | for
-of => of | 
-by => by | from
-on =>  | 
-****************
-on => on | in
-for => for | into
-of => of | to
-as => as | 
-to => to | of
-on =>  | 
-****************
-of => of | with
-of => in | in
-****************
-for => for | of
-for => for | on
-for => for | of
-of => of | 
-to => to | for
-on => on | from
-for => for | 
-to => for | for
-****************
-on => of | of
-****************
-on =>  | for
- => with | worth
-with => with | during
-of => of | 
-to => to | 
-for => for | 
-between =>  | with
-upon =>  | on
-into => into | to
- => in | online
-with => with | 
-on => with | with
-****************
-on => to | to
-****************
-in => in | among
-with =>  | 
-****************
-by =>  | 
-****************
-within => within | of
-with => with | for
-about =>  | 
-****************
-for => for | 
-of => of | in
-on =>  | 
-****************
-on =>  | to
-through => through | by
-of => in | in
-****************
-of => of | in
-of => of | with
-in => in | of
- => in | online
-of => of | in
-to => for | of
- => on | especially
-of => of | in
-in => in | 
- =>  | outside
-of => of | 
-of =>  | 
-****************
-of => on | on
-****************
-of => of | for
-on => to | to
-****************
-for =>  | 
-****************
-from => from | for
-by =>  | 
-****************
-on => on | 
-on => on | towards
-in => in | of
-in => in | on
- => bbc | february
-to => to | 
-to => to | for
-of => of | for
- => on | till
-for => for | in
-in => in | 
-in => in | on
-at => at | in
-of =>  | 
-****************
-among => among | in
- => of | though
-on => on | for
-with => with | in
-in => in | to
-to => to | with
-in => in | about
-by => by | 
-of => on | on
-****************
-on => on | 
-in => in | 
-of => of | 
- => with | alongside
-to => to | 
- => bbc | generation
-of => of | by
-on => on | 
-under => under | in
-over => over | in
- => to | down
-to => to | in
-to => on | in
-from => from | of
-in => in | of
- => because | out
-with => with | to
-of => of | on
-for => for | on
-in => in | by
-of => of | 
-to => on | on
-****************
-between => between | in
-with =>  | at
-by => by | from
-of => of | 
-on => on | for
-of => to | 
- => by | due
-in => in | into
-for => for | 
-at => at | in
-from => from | 
-about => about | 
-with => with | of
-of => for | for
-****************
- => from | especially
-in => in | at
-on =>  | 
-****************
-to => to | in
-to => to | for
-in => in | to
-to => to | 
-on => on | of
-for => for | 
-on => on | 
-with => with | by
-on => on | to
-by => by | in
-of => of | to
-of => of | in
-by => by | in
-on =>  | 
-****************
-of => of | 
-towards => of | in
-with => with | in
-from => from | 
- => about | along
-in => in | inside
- => by | out
-for => for | 
-on => of | of
-****************
-on => on | in
-in => in | at
-in => in | 
-in => on | on
-****************
-upon => on | to
-to => of | on
-into => in | to
-to => in | into
- =>  | till
-into => into | for
-on => to | to
-****************
-of =>  | 
-****************
-on => in | at
-by => by | 
-in => in | of
-of =>  | 
-****************
-to => for | for
-****************
-in => of | of
-****************
-in => to | to
-****************
-by => by | 
-at => at | of
-to => on | on
-****************
-of => of | in
-into => into | to
-of =>  | in
-of => of | through
-on => on | in
-in => in | 
-in => for | for
-****************
-of =>  | 
-****************
-with => with | without
-as => as | 
-of => of | 
-of => of | in
- => in | following
-with => with | 
-on => on | 
-of => of | on
-of =>  | 
-****************
-in => in | 
- =>  | out
-to => to | for
-on => on | in
-to => in | in
-****************
-of => for | for
-****************
-to => to | 
-to => to | 
-of =>  | 
-****************
-for => for | to
-to => to | for
-of => of | 
-in => in | on
- =>  | worth
-with => with | 
- => of | versus
-on => on | of
-of => of | on
-with => with | by
-for => for | of
-of => of | in
-in => in | to
-in => in | at
-as => as | at
-for => for | of
-on => on | 
-as =>  | 
-****************
-to => for | for
-****************
-through =>  | 
-****************
-from => from | of
-of => of | for
-as => as | in
-for => for | to
-of =>  | during
- => of | up
- =>  | till
-in => in | on
-at => at | in
- => with | till
-to => to | for
-with => with | 
-to => to | of
-on => for | for
-****************
-with =>  | 
-****************
-upon => in | on
-of => in | in
-****************
-in => in | on
-with => with | to
-about =>  | 
-****************
-in => in | into
-for => for | by
-in => in | during
-on => on | 
-to => to | for
-for => for | 
- => for | in
- => in | till
-over =>  | about
-on => on | by
-of => of | from
-to => to | of
-by => by | for
-through =>  | by
-of => of | in
-of => of | from
-in => in | on
-by =>  | 
-****************
-to =>  | 
-****************
-on => on | 
-in => in | during
-of =>  | 
-****************
-on => on | in
-with =>  | at
-of => of | for
-into =>  | in
-to => to | 
- => for | due
-on =>  | 
-****************
-of =>  | 
-****************
-in => in | 
-for => for | to
-for => for | on
-in => with | with
-****************
- => to | along
- => for | especially
-to => to | into
-to => to | for
-about => about | in
- => to | out
-at => at | in
-with => with | 
- =>  | till
-by => by | for
-in => in | into
- => in | till
-in => in | from
-of => of | in
-on => with | in
- => in | plus
-to => to | 
- =>  | worth
-in => in | to
-in => in | from
-of => of | in
-to => to | at
-with => with | 
-by => by | to
-for => for | by
-to => to | of
-over => over | in
-in => in | for
-into => in | in
-****************
-on => on | 
-of => of | 
-for => for | 
-for => for | to
-by => by | of
-in => in | 
-in => in | from
-in => in | of
-for => for | 
-into => into | to
-in => for | to
-with => with | 
-on =>  | 
-****************
-to => to | for
-to => to | for
-for => for | on
-of => in | in
-****************
-by => by | from
-in => in | of
-for => for | 
-of => of | 
- => from | november
-to => to | into
-of =>  | 
-****************
-on => on | in
-in => in | on
-in => in | of
-of => of | from
-on => on | in
-on => on | 
-of => of | 
-upon => on | of
- =>  | out
-of => of | for
-in => in | into
- => compared | due
-for => for | to
-as => as | 
-of =>  | 
-****************
-of =>  | 
-****************
- => in | up
-until => in | 
-in => in | to
-to => to | 
-for => for | in
-to => to | on
-in => in | from
-under => in | with
-to => to | 
-by => by | with
-in => in | into
-in => in | on
-of => of | 
-by => by | through
-of => of | on
-to => to | for
- => in | out
-in => in | to
- => in | beneath
-on =>  | 
-****************
-by => by | 
- => of | defect
- => as | outside
-on =>  | into
-for => for | 
-towards => in | of
-on => on | for
-of => of | 
-by => by | from
-on =>  | 
-****************
-on => on | in
-for => for | into
-of => of | to
-as => as | 
-to => to | of
-on =>  | 
-****************
-of => of | with
-of => in | in
-****************
-for => for | of
-for => for | on
-for => for | of
-of => of | 
-to => to | for
-on => on | from
-for => for | 
-to => for | for
-****************
-on => of | of
-****************
-on =>  | for
- =>  | worth
-with => with | during
-of => of | 
-to => to | 
-for => for | 
-between =>  | with
-upon =>  | on
-into => in | to
- => in | online
-with => with | 
-on => with | with
-****************
-on => to | to
-****************
-in => in | among
-with =>  | 
-****************
-by =>  | 
-****************
-within => within | of
-with => with | for
-about =>  | 
-****************
-for => for | 
-of => of | in
-on =>  | 
-****************
-on =>  | to
-through => through | by
-of => in | in
-****************
-of => of | in
-of => of | with
-in => in | of
- => in | online
-of => of | in
-to => to | of
- => on | especially
-of => of | in
-in => in | 
- =>  | outside
-of => of | 
-of =>  | 
-****************
-of => of | on
-of => of | for
-on => to | to
-****************
-for =>  | 
-****************
-from => from | for
-by =>  | 
-****************
-on => on | 
-on => on | towards
-in => in | of
-in => in | on
- => bbc | february
-to => to | 
-to => to | for
-of => of | for
- => on | till
-for => for | in
-in => in | 
-in => in | on
-at => at | in
-of =>  | 
-****************
-among => among | in
- => of | though
-on => on | for
-with => with | in
-in => in | to
-to => to | with
-in => in | about
-by => by | 
-of => on | on
-****************
-on => on | 
-in => in | 
-of => of | 
- =>  | alongside
-to => to | 
- => bbc | generation
-of => of | by
-on => on | 
-under => under | in
-over => over | in
- => to | down
-to => to | in
-to => on | in
-from => from | of
-in => in | of
- => because | out
-with => with | to
-of => of | on
-for => for | on
-in => in | by
-of => of | 
-to => on | on
-****************
-between => between | in
-with =>  | at
-by => by | from
-of => of | 
-on => on | for
-of => to | 
- => by | due
-in => in | into
-for => for | 
-at => at | in
-from => from | 
-about => about | 
-with => with | of
-of => for | for
-****************
- => from | especially
-in => in | at
-on =>  | 
-****************
-to => to | in
-to => to | for
-in => in | to
-to => to | 
-on => on | of
-for => for | 
-on => on | 
-with => with | by
-on => for | to
-by => by | in
-of => of | to
-of => of | in
-by => by | in
-on =>  | 
-****************
-of => of | 
-towards => of | in
-with => with | in
-from => from | 
- => about | along
-in => in | inside
- => by | out
-for => for | 
-on => of | of
-****************
-on => on | in
-in => in | at
-in => in | 
-in => on | on
-****************
-upon => on | to
-to => of | on
-into => in | to
-to => in | into
- =>  | till
-into => into | for
-on => to | to
-****************
-of =>  | 
-****************
-on => in | at
-by => by | 
-in => in | of
-of =>  | 
-****************
-to => to | for
-in => of | of
-****************
-in => to | to
-****************
-by => by | 
-at => at | of
-to => to | on
-of => of | in
-into => to | to
-****************
-of =>  | in
-of => of | through
-on => on | in
-in => in | 
-in => for | for
-****************
-of =>  | 
-****************
-with => with | without
-as => as | 
-of => of | 
-of => of | in
- => in | following
-with => with | 
-on => on | 
-of => of | on
-of =>  | 
-****************
-in => in | 
- =>  | out
-to => to | for
-on => on | in
-to => in | in
-****************
-of => for | for
-****************
-to => to | 
-to => to | 
-of =>  | 
-****************
-for => for | to
-to => to | for
-of => of | 
-in => in | on
- =>  | worth
-with => with | 
- => of | versus
-on => on | of
-of => of | on
-with => with | by
-for => for | of
-of => of | in
-in => in | to
-in => in | at
-as => as | at
-for => for | of
-on => on | 
-as =>  | 
-****************
-to => for | for
-****************
-through =>  | 
-****************
-from => from | of
-of => of | for
-as => as | in
-for => for | to
-of =>  | during
- => of | up
- =>  | till
-in => in | on
-at => at | in
- => with | till
-to => to | for
-with => with | 
-to => to | of
-on => for | for
-****************
-with =>  | 
-****************
-upon =>  | on
-of => in | in
-****************
-in => in | on
-with => with | to
-about =>  | 
-****************
-in => in | into
-for => for | by
-in => in | during
-on => on | 
-to => to | for
-for => for | 
- => for | in
- => in | till
-over =>  | about
-on => on | by
-of => of | from
-to => to | of
-by => by | for
-through =>  | by
-of => of | in
-of => of | from
-in => in | on
-by =>  | 
-****************
-to =>  | 
-****************
-on => on | 
-in => in | during
-of =>  | 
-****************
-on => on | in
-with =>  | at
-of => of | for
-into =>  | in
-to => to | 
- => to | due
-on =>  | 
-****************
-of =>  | 
-****************
-in => in | 
-for => for | to
-for => for | on
-in => with | with
-****************
- => to | along
- => for | especially
-to => to | into
-to => to | for
-about => about | in
- =>  | out
-at => at | in
-with => with | 
- =>  | till
-by => by | for
-in => in | into
- => in | till
-in => in | from
-of => of | in
-on => on | in
- => of | plus
-to => to | 
- =>  | worth
-in => in | to
-in => in | from
-of => of | in
-to => to | at
-with => with | 
-by => of | to
-for => for | by
-to => to | of
-over => over | in
-in => in | for
-into => in | in
-****************
-on => on | 
-of => of | 
-for => in | 
-for => for | to
-by => by | of
-in => in | 
-in => in | from
-in => in | of
-for => for | 
-into => into | to
-in => for | to
-with => with | 
-on =>  | 
-****************
-to => to | for
-to => to | for
-for => for | on
-of => in | in
-****************
-by => by | from
-in => in | of
-for =>  | 
-****************
-of => of | 
- => from | november
+ =>  | near

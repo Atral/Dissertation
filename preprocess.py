@@ -96,17 +96,22 @@ add_corrections(prep_errors)
 # Finding prepositions in text
 preps = df[df["DPREL"] == "prep"]
 counts = preps["CORRECTION"].value_counts().index.to_list()
+# res = df.div(df.sum(axis=1), axis=0)
 t = preps["CORRECTION"].value_counts()
-print(t.head(30))
-undersample_rate = 2
-
+t.to_csv("top_num.csv")
+top = counts[:20]
 # Split into test and train data
-train, test = train_test_split(preps, test_size=0.15, random_state=42)
+train, test = train_test_split(preps, test_size=0.05, random_state=42)
 
 # Undersample the train data
+undersample_rate = 1
 
-top = counts[:20]
-filter_uncommon(top, train)
+print(top)
+train = filter_uncommon(top, train)
+train = train[train["TOKEN"] != ""]
+train[train["TOKEN"].isin(top)]
+
+print(train["CORRECTION"].value_counts().to_csv("train_words.csv"))
 
 train = undersample(train, undersample_rate)
 p = train[train["CORRECTION"] == train["TOKEN"]].shape[0]
@@ -129,6 +134,7 @@ X_test = build_features(test)
 y_test = test["CORRECTION"].to_list()
 
 # Write data to file
+# testname = str.join("top", num)
 write_to_file("top20_test.txt", X_test, y_test)
 write_to_file("top20_train.txt", X_train, y_train)
 
